@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linktree Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-poppins">
+    <div
+      class="relative flex flex-col items-center justify-center min-h-screen"
+    >
+      <!-- Background Image dengan contrast-50 -->
+      <div
+        class="absolute inset-0 bg-[url('assets/images/bg-dental.jpeg')] bg-cover bg-center blur-[5px]"
+      ></div>
+
+      <!-- Logo di tengah -->
+      <div class="flex flex-col items-center mb-8 z-10">
+        <img
+          src="assets/images/dental.png"
+          alt="Profile Picture"
+          class="h-16 object-contain"
+        />
+        <h2 class="text-black mt-4 text-2xl font-extrabold">
+          Antarmedika Dental Care
+        </h2>
+        <p class="text-black text-center text-sm mt-2">
+          "Solusi Tepat Masalah Gigi dan Mulut Anda"
+        </p>
+      </div>
+
+      <!-- Daftar tombol -->
+      <div class="space-y-4 w-80 z-10">
+        <!-- Button Website -->
+        <a
+          href="http://dental.antarmedika.com"
+          class="relative flex items-center opacity-90 justify-center bg-[#03818c] text-white py-3 px-4 h-14 rounded-full shadow-[5px_5px_0px_#332c2b]"
+        >
+          <i
+            class="fa-sharp fa-solid fa-globe text-white text-[18pt] w-6 h-6 absolute left-4"
+          ></i>
+          <span class="text-center font-semibold">Profil Kami</span>
+        </a>
+
+        <!-- Button Discord -->
+        <a
+          href="#"
+          class="relative flex items-center opacity-90 justify-center bg-[#03818c] text-white py-3 px-4 h-14 rounded-full shadow-[5px_5px_0px_#332c2b]"
+        >
+          <i
+            class="fa-sharp fa-solid fa-comments text-white text-[18pt] w-6 h-6 absolute left-4"
+          ></i>
+          <span class="text-center font-semibold">Konsultasi Online</span>
+        </a>
+
+        <!-- Button Website (First) -->
+        <a
+          href="#"
+          class="relative flex items-center opacity-90 justify-center bg-[#03818c] text-white py-3 px-4 h-14 rounded-full shadow-[5px_5px_0px_#332c2b]"
+        >
+          <i
+            class="fa-solid fa-bullhorn text-white text-[18pt] w-6 h-6 absolute left-4"
+          ></i>
+          <span class="text-center font-semibold">Promosi</span>
+        </a>
+
+        <!-- Button Website (Second) -->
+        <a
+          href="https://wa.link/ac32ln"
+          class="relative flex items-center opacity-90 justify-center bg-[#03818c] hover:bg-[#42c8b0] text-white py-3 px-4 h-14 rounded-full shadow-[5px_5px_0px_#332c2b]"
+        >
+          <i
+            class="fa-brands fa-whatsapp text-white text-[18pt] w-6 h-6 absolute left-4"
+          ></i>
+          <span class="text-center font-semibold">Hubungi Kami</span>
+        </a>
+        <a
+          href="https://maps.app.goo.gl/9xiu9FSJDUmXoJs7A"
+          class="relative flex items-center opacity-90 justify-center bg-[#03818c] hover:bg-[#42c8b0] text-black py-3 px-4 h-14 rounded-full shadow-[5px_5px_0px_#332c2b]"
+        >
+          <i
+            class="fa-sharp fa-solid fa-location-dot text-white text-[18pt] w-6 h-6 absolute left-4"
+          ></i>
+          <span class="text-center text-white font-semibold">Lokasi</span>
+        </a>
+      </div>
+
+      <!-- Icon Sosmed -->
+      <div class="flex w-80 justify-center mt-10 space-x-4 z-10">
+        <div class="flex justify-center items-center w-12 h-12">
+          <a href="https://t.ly/adc_facebook"
+            ><i class="fa-brands fa-facebook fa-2x text-white"></i
+          ></a>
+        </div>
+        <div class="flex justify-center items-center w-12 h-12">
+          <a href="https://t.ly/adc_instagram"
+            ><i class="fa-brands fa-square-instagram fa-2x text-white"></i
+          ></a>
+        </div>
+        <div class="flex justify-center items-center w-12 h-12">
+          <a href="#"><i class="fa-brands fa-tiktok fa-2x text-white"></i></a>
+        </div>
+      </div>
+      <footer class="relative w-full max-w-md text-center mt-6">
+        <p class="text-sm text-white">Antarmedika © 2024.</p>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/be0e5c389d.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
